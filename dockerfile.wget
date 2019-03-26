@@ -1,0 +1,6 @@
+FROM alpine
+
+RUN apk -v --update add wget
+
+ENTRYPOINT ["sleep", "3000000000"]
+
